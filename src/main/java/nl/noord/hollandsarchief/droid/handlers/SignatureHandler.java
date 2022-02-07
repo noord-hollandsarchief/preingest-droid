@@ -11,7 +11,7 @@ public class SignatureHandler extends CommandHandler {
   
   public void doUpdateCheck() {
     String[] command = null;
-    command = new String[] { "java", "-jar", String.format("%1$2sdroid-command-line-6.5.jar", new Object[] { this.DROID_LINUX_FOLDER }), "-c" };
+    command = new String[] { "java", "-jar", String.format("%1$2sdroid-command-line-6.5.1.jar", new Object[] { this.DROID_LINUX_FOLDER }), "-c" };
     
     try{
       if (command.length > 0){
@@ -26,7 +26,7 @@ public class SignatureHandler extends CommandHandler {
   
   public void doDownloadUpdate() {
     String[] command = null;
-    command = new String[] { "java", "-jar", String.format("%1$2sdroid-command-line-6.5.jar", new Object[] { this.DROID_LINUX_FOLDER }), "-d" };
+    command = new String[] { "java", "-jar", String.format("%1$2sdroid-command-line-6.5.1.jar", new Object[] { this.DROID_LINUX_FOLDER }), "-d" };
     
     try{
       if (command.length > 0){

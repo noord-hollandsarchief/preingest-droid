@@ -15,7 +15,7 @@ public class ReportingPdfHandler extends CommandHandler {
     public NewActionResult execute() {
         NewActionResult result = null;
         String[] command = { "java", "-jar",
-                String.format("%1$2sdroid-command-line-6.5.jar", new Object[] { this.DROID_LINUX_FOLDER }), "-r",
+                String.format("%1$2sdroid-command-line-6.5.1.jar", new Object[] { this.DROID_LINUX_FOLDER }), "-r",
                 // String.format("%1$2s%2$2s/%2$2s.pdf", new Object[] {
                 // this.ARCHIVEDATA_LINUX_FOLDER, this._guid }),
                 String.format("%1$2s%2$2s/%3$2s.pdf",
